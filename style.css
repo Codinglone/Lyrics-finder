@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(26, 26, 27);
+}
+
+.container {
+    max-width: 80%;
+    margin: 100px 12%;
+    color: whitesmoke;
+}
+
+.container .search-div {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.submit {
+    margin: 0 10px;
+    border: none;
+    background: darksalmon;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+img {
+    object-fit: cover;
+    max-width: 50%;
+    max-height: 500px;
+    margin-left: 26%;
+}
+.title {
+    margin: 50px auto;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.lyrics {
+    max-width: 60%;
+    margin: 50px auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: block;
+}
+
+.brand {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 45%;
+    color: black;
+    background-color: darksalmon;
+    font-weight: 500;
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    border-radius: 4px;
+    transition: all 0.6s ease-in-out;
+}
+
+a:hover {
+    background-color: teal;
+    color: whitesmoke;
+    box-shadow: 5px 5px 8px rgba(185, 184, 184, 0.3);
+}
